@@ -236,8 +236,24 @@ footer .footer-right {
 	}
 
 	/*header*/
+	.icon {
+		margin-left: 20px;
+	}
+
+	.icon .name {
+		display: none;
+	}
+
+	.header-right {
+		display: none;
+	}
+	/*headerここまで*/
 
 	/*welcome*/
+	.title {
+		font-size: 30px;
+	}
+	/*welcomeここまで*/
 
 	/*curriculum*/
 	.img-box {
