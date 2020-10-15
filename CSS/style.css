@@ -235,9 +235,34 @@ footer .footer-right {
 		flex-flow: wrap;
 	}
 
+	.img-box li {
+		margin-right: 50px; 
+	}
+
+	.img-box li span {
+		margin-bottom: 20px;
+	}
+
+	.img-box li:nth-child(2) {
+		margin-right: 0px;
+	}
+
 	/*contact*/
 	.contact .form {
 		flex-flow: column nowrap;
+	}
+
+	.form-left {
+		margin-right: 0;
+	}
+
+	.form-right {
+		margin-top: 20px;
+	}
+
+	.contact button {
+		padding: 5px 30px;
+		font-size: 18px;
 	}
 	/*footer*/
 
@@ -343,6 +368,11 @@ footer .footer-right {
 
 	.form-right {
 		margin-top: 20px;
+	}
+
+	.contact button {
+		font-size: 16px;
+		padding: 7px 15px;
 	}
 
 	/*footer*/
