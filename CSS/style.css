@@ -226,8 +226,23 @@ footer .footer-right {
 }
 
 /*タブレット*/
-/*@media screen and (max-width: 960px) {
-}*/
+@media screen and (max-width: 960px) {
+
+	/*welcome*/
+
+	/*curriculum*/
+	.img-box {
+		flex-flow: wrap;
+	}
+
+	/*contact*/
+	.contact .form {
+		flex-flow: column nowrap;
+	}
+	/*footer*/
+
+
+}
 
 /*スマホ*/
 @media screen and (max-width: 480px) {
@@ -331,5 +346,17 @@ footer .footer-right {
 	}
 
 	/*footer*/
+	footer {
+		display: flex;
+		justify-content: center;
+	}
+
+	footer .icon {
+		display: none;
+	}
+
+	footer .footer-right {
+		margin-right: 0;
+	}
 
 }
