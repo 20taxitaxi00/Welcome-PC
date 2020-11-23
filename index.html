@@ -6,7 +6,6 @@
 	<title>Welcome to NexSeed Okinawa</title>
 	<link rel="stylesheet" type="text/css" href="CSS/reset.css">
 	<link rel="stylesheet" type="text/css" href="CSS/style.css">
-	 <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <body>
 	<!-- header -->
@@ -106,6 +105,22 @@
 		<p class="footer-right">Copyright (c) SeedKun inc</p>
 	</footer>
 	<!-- footer終 -->
-	 <script defer src="JS/app.js"></script>
+	
+	<!-- modal window -->
+	<div class="modal-content">
+		<div class="modal-close">
+			<span class="js-modal-close">×</span>
+		</div>
+		<form class="modal-form">
+			<input class="modal-form-email" type="email" placeholder="メールアドレス">
+			<input class="modal-form-password" type="password" placeholder="パスワード">
+			<button id="js-modal-form-btn" class="modal-form-btn register">登録</button>
+		</form>
+	</div>
+	<div id="modal-bg" class="js-modal-close"></div>
+	<!-- modal終 -->
+
+	<script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script defer src="JS/app.js"></script>
 </body>
 </html>
