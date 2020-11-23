@@ -349,6 +349,12 @@ footer .footer-right {
 	font-size: 16px;
 	border-radius: 10px;
 }
+
+.js-login,
+.js-register {
+	cursor: pointer;
+}
+
 /* modalここまで */
 
 /*レスポンシブ対応*/
